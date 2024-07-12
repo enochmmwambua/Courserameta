@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <h2>Falafel</h2>
+    <p>Chickpea, herbs and spices</p>
+    <img src="falafel.jpg" width="240" height="135" alt="A Falafel">
+    <h2>Pasta Salad</h2>
+    <p>Lettuce, vegetables, and mozarella</p>
+    <img src="salad.jpg" width="240" height="135" alt="A Salad"><br>
+    <a href="location.html">Our Location</a>
+    <style>
+        table th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <table>
+        <tr>
+            <th>Dish</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Falafel</td>
+            <td>$10.00</td>
+        </tr>
+        <tr>
+            <td>Salad</td>
+            <td>$12.00</td>
+        </tr>
+    </table>
+    <form action="/registration" method="post">
+        <label for="Username">Username</label><br>
+        <input type="text" name="username"><br>
+        <label for="Password">Password</label><br>
+        <input type="password" name="password"><br>
+        <input type="submit"><br>
+        <label for="Other options">Other options</label><br>
+        <select name="food">
+            <option value="chocolate">chocolate</option>
+            <option value="Ice cream">Ice Cream</option>
+            <option value="Strawberry">Strawberry</option>
+        </select><br>
+        <label for="Order">Order</label><br>
+        <input type="radio" name="Salad">
+        <label for="Salad">Salad</label><br>
+        <input type="radio" name="Falafel">
+        <label for="Falafel">Falafel</label><br>
+        <label for="sides">Sides</label><br>
+        <input type="checkbox" name="Fries">
+        <label for="Fries">Fries</label><br>
+        <input type="checkbox" name="Sauces">
+        <label for="Sauces">Sauces</label><br>
+    
+
+    </form>
+</body>
+</html>
